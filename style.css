@@ -1,0 +1,54 @@
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+padding: 20px;
+}
+.subject-group {
+margin-bottom: 20px;
+border: 1px solid #ccc;
+padding: 10px;
+border-radius: 5px;
+}
+.subject-label {
+display: block;
+margin-bottom: 5px;
+}
+.input-group {
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
+.input-group label {
+margin-right: 10px;
+flex: 0 0 auto;
+width: 100px;
+text-align: right;
+}
+.input-group input {
+flex: 1;
+padding: 5px;
+border-radius: 3px;
+border: 1px solid #ccc;
+}
+#addButton {
+margin-bottom: 20px;
+padding: 10px 20px;
+font-size: 18px;
+border: none;
+background-color: #007bff;
+color: #fff;
+cursor: pointer;
+border-radius: 5px;
+}
+#submitBtn {
+margin-top: 20px;
+padding: 10px 20px;
+font-size: 18px;
+border: none;
+background-color: #28a745;
+color: #fff;
+cursor: pointer;
+border-radius: 5px;
+position: sticky;
+bottom: 20px;
+}
